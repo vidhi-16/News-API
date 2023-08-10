@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem !important;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+}
+.icon{
+    font-size: 3rem;
+    align-self: center;
+    padding: 15px;
+    color: rgb(110, 37, 37);
+}
+.cardHeight{
+    /* min-height: 20vh; */
+    height: 80vh;
+    border: 0px !important;
+    border-radius: 30px !important;
+}
+.cardHeight .card-body{
+    overflow-y: auto;
+}
+
+.cardHeight img{
+    height: 50vh;
+    border-radius: 9px 9px 0px 0px;
+}
+
+.card-margin{
+    outline: 3px solid black;
+    outline-offset: -15px;
+    border-radius: 30px;
+}
